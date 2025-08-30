@@ -1,5 +1,5 @@
 # CATopalian_PyScript_Computer_Science
-PYScript is a lot of fun. Let's use Python in the browser! :-)
+PyScript is a lot of fun. Let's use Python in the browser! :-)
 
 [online_template](src/template/online/single_file/001/template.html)  
 
