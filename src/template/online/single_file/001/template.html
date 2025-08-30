@@ -1,0 +1,47 @@
+<!-- Dedicated to God the Father -->
+<!-- All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025 -->
+<!-- https://github.com/ChristopherTopalian -->
+<!-- https://github.com/ChristopherAndrewTopalian -->
+<!-- template.html -->
+
+<html>
+<head>
+<title> template </title>
+
+<style>
+
+body
+{
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+}
+
+</style>
+
+<link rel = "stylesheet" href="https://pyscript.net/releases/2022.12.1/pyscript.css" />
+
+<script defer src = "https://pyscript.net/releases/2022.12.1/pyscript.js"></script>
+
+</head>
+
+<body>
+
+<h1> Check the message below: </h1>
+
+<div id = "message"> Waiting... </div>
+
+<py-script>
+
+    from js import document
+
+    # this runs as soon as PyScript runtime is ready
+    document.getElementById("message").textContent = "Hi Everyone"
+
+    print("Page has loaded")
+
+</py-script>
+
+</body>
+
+</html>
+
